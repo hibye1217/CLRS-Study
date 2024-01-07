@@ -2,6 +2,12 @@
 
 ## Additional Note
 
+### Problem Notation
+
+- `/<id>`: [**Baekjoon Online Judge**](https://www.acmicpc.net/)
+
+Most of the problems will be from Baekjoon Online Judge. I'll translate every problems onto this page, and also put solutions.
+
 ### Code - Input/Output Format
 
 ```cpp

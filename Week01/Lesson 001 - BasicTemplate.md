@@ -14,7 +14,7 @@ int main(){
 ```
 
 ```
-Hello World!
+< Hello World!
 ```
 
 - `#include <iostream>`: Includes a header called `iostream`.
