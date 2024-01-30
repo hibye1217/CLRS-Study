@@ -1,5 +1,7 @@
 # BOJ 2588 - 곱셈 (Multiplication)
 
+[**Problem Link**](https://www.acmicpc.net/problem/2588)
+
 The multiplication of three digit numbers is performed as follow.
 
 ```

@@ -1,5 +1,7 @@
 # BOJ 1330: 두 수 비교하기 (Comparing Two Integers)
 
+[**Problem Link**](https://www.acmicpc.net/problem/1330)
+
 Given 2 integers $A$ and $B$, compare the value of $A$ and $B$.
 
 ## Input

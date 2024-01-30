@@ -1,5 +1,7 @@
 # BOJ 2741: N 찍기 (Printing N)
 
+[**Problem Link**](https://www.acmicpc.net/problem/2741)
+
 Given a natural number $N$, print $1$ to $N$, each on a separated line.
 
 ## Input

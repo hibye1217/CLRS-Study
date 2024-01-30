@@ -1,5 +1,7 @@
 # BOJ 25304: 영수증 (Bill)
 
+[**Problem Link**](https://www.acmicpc.net/problem/25304)
+
 For the first time in his life, Junweon went to the Costco. It was amazing. However, the total price was too high, even though they only bought a few items. So Junweon decided to check the bill, and see they correctly calculated the total price.
 
 Given the each item's price and count in bill, determine whether or not the total price is correct.

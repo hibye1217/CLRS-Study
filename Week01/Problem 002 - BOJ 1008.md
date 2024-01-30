@@ -1,5 +1,7 @@
 # BOJ 1008: A/B
 
+[**Problem Link**](https://www.acmicpc.net/problem/1008)
+
 Given 2 integers $A$ and $B$, print the value of $\frac{A}{B}$.
 
 ## Input

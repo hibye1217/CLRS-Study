@@ -1,5 +1,7 @@
 # BOJ 2739: 구구단 (Multiplication Table)
 
+[**Problem Link**](https://www.acmicpc.net/problem/2739)
+
 Given $N$, print the multiplication table of $N$. See Example Output for the output format.
 
 ## Input

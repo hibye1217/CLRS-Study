@@ -1,5 +1,7 @@
 # BOJ 2525: 오븐 시계 (Oven Clock)
 
+[**Problem Link**](https://www.acmicpc.net/problem/2525)
+
 The electric company KOI invented the new AI oven which cooks the meat in perfect condition. You just need to put in the meat, and AI will calculate the finishing time of the cook by itself.
 
 This oven also have the digital clock that displays the finishing time of the cooking process.

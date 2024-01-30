@@ -8,6 +8,21 @@
 
 Most of the problems will be from Baekjoon Online Judge. I'll translate every problems onto this page, and also put solutions.
 
+#### Problem Difficulty
+
+If you just learned the knowledge in `Lesson ***`, it is recommended to solve the problem up until **Hard** difficulty.
+
+**Expert** and **Master** difficulty is there for more skilled participants, and only recommended after fully understand the knowledge.
+
+- **Easy**: Requires only basic knowledge to solve the problem.
+- **Normal**: Requires basic knowledge, but also requires some thinking to solve the problems.
+- **Hard**: Requires to understand the internal logic, and apply it to the problem. It might use the technique not discussed in the Lesson[^Technique].
+- **Expert**: Requires to fully understand the internal logic, and apply it to the problem. You probably need to use the technique not discussed in the Lesson.
+- **Master**: Requires to fully understand the internal logic, and apply it to the problem. You probably need to use the technique not discussed in the Lesson, and you might also need couple of other steps just to apply the knowledge/techniques you learned.
+- **Appendix**: Requires some knowledge which is not discussed in the Lesson, but important enough to know. The required knowledge is explained in Appendix file.
+
+[^Technique]: Note the difference between **technique** and **knowledge**. You can derive the required **technique** by applying your **knowledge** learned from the Lesson.
+
 ### Code - Input/Output Format
 
 ```cpp
@@ -164,3 +179,15 @@ tied buffer: N, '\n', M, '\n'
 The `ios_base::sync_with_stdio(0);` line remove this tie-up. The side effect of this is that you cannot use `cin/cout` and `scanf/printf` at the same time, but as long as you do not use both method, you're good to go.
 
 [^flush]: Ok, we do need to flush, if you're solving an interactive problem. But for the any other type of problems, you don't need to flush it. The reason you need to flush in these type of problem is that the input and output's relation **is** required.
+
+## Week 3
+
+### Undefined Behavior
+
+There are some behavior that is not defined, such as accessing the array with nonexisting index, or using a variable without initializing. This is called **Undefined Behavior**, or **UB** for short.
+
+Undefined Behavior is extremely dangerous, as their behavior is literally not defined. Thus, the program might do anything.
+
+It might print the value as if nothing happened, or just crashes and give you Runtime Error, or maybe they do something that is not intended~~, and even launch nuke~~. OK, the last line was mostly joke. But the point is, the program might do literally anything when UB happens, and we basically cannot predict it's outcome.
+
+One of the most dangerous part of UB is that they **might** produce error. So they might run fine on your computer, but not on the other computers. Or even other way around.

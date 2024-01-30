@@ -17,7 +17,8 @@
 - `a++`: add $a$ by $1$. If used in expression, adding by $1$ happens after the expression is evaluated.
 - `a--`: subtract $a$ by $1$. If used in expression, adding by $1$ happens after the expression is evaluated.
 - `++a`: add $a$ by $1$. If used in expression, adding by $1$ happens before the expression is evaluated.
-- `--a`: subtract $a$ by $1$. If used in expression, adding by $1$ happens before the expression is evaluated.
+- `--a`: subtract $a$ by $1$. If used in expression, adding by $1$​ happens before the expression is evaluated.
+- Important Note: Do not use 2 or more Incremental/Decremental operation on same variable in a single line.
 
 ```cpp
 #include <iostream>
